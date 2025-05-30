@@ -898,13 +898,13 @@ section,
 
 .hero p {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
-  margin: 5px 5px 30px 5px;
+  margin: 5px 5px 5px 5px;
   font-size: 20px;
   font-weight: 400;
   text-align: justify;
 }
 
-.hero .btn-get-started {
+.btn-get-started {
   color: var(--contrast-color);
   background: var(--accent-color);
   font-family: var(--heading-font);
@@ -918,7 +918,7 @@ section,
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
 }
 
-.hero .btn-get-started:hover {
+.btn-get-started:hover {
   color: var(--contrast-color);
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
