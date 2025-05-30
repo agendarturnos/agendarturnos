@@ -885,6 +885,10 @@ section,
   align-items: center;
 }
 
+.hero h2 {
+  text-align: center;
+}
+
 .hero h1 {
   margin: 0;
   font-size: 48px;
@@ -894,9 +898,10 @@ section,
 
 .hero p {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
-  margin: 5px 0 30px 0;
+  margin: 5px 5px 30px 5px;
   font-size: 20px;
   font-weight: 400;
+  text-align: justify;
 }
 
 .hero .btn-get-started {
